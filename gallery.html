@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laptop Mood Gallery (Grid)</title>
+  <link rel="icon" type="image/png" href="img/faviconLogo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Review</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
+        <li><a href="tips.html">Tips</a></li>
+      </ul>
+    </nav>
+
+    <h1>Mood Gallery</h1>
+    <p>This page uses CSS Grid and includes 4 images.</p>
+  </header>
+
+  <main id="main">
+    <h2>My moods during study season</h2>
+
+    <div class="grid">
+      <figure>
+        <img src="img/g1.png" alt="Abstract gallery image 1.">
+        <figcaption>Fresh start</figcaption>
+      </figure>
+      <figure>
+        <img src="img/g2.png" alt="Abstract gallery image 2.">
+        <figcaption>More tabs</figcaption>
+      </figure>
+      <figure>
+        <img src="img/g3.jpg" alt="Abstract gallery image 3.">
+        <figcaption>Notifications</figcaption>
+      </figure>
+      <figure>
+        <img src="img/g4.jpg" alt="Abstract gallery image 4.">
+        <figcaption>Keyboard crumbs</figcaption>
+      </figure>
+    </div>
+
+    <p>Note: every even image uses <strong>nth-child</strong> to get a different border-radius.</p>
+  </main>
+
+  <footer>
+    <p>Grid + nth-child requirement is completed here.</p>
+  </footer>
+</body>
+</html>
